@@ -80,6 +80,35 @@ footer{
     border: 2px solid black
 }
 
+.controles{
+    width:100%;
+    height: 50px;
+    font-size: 20px;
+    font-style: italic;
+    resize: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.camposradio{
+    font-size:25px;
+    font-style: italic;
+    border-radius: 15px;
+}
+.boton{
+    font-size:20px;
+    font-weight: bold;
+    width:150px;
+    height:50px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-top:5px;
+}
+.boton:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
 @media screen and (max-width:800px){
     header{
         padding-left: 0;
@@ -94,7 +123,7 @@ footer{
         text-align: center;
         padding-left: 0;
     }
-    nav ul il a{
+    nav ul li a{
         font-size: 15px;
     }
     main article h1{
@@ -107,8 +136,12 @@ footer{
         font-size: 20px;
     }
     main article{
-        padding-left: 30px;
-        padding-right: 30px;
+        /*padding-left: 30px;*/
+        /*padding-right: 30px;*/
+        padding: 0;
+        width: 90%;
+        margin: auto;
+
     }
     footer{
         font-size: 22px;
@@ -120,28 +153,4 @@ footer{
         margin-bottom: 10px;
     }
     
-}
-.controles{
-    width: 100%;
-    height: 50px;
-    font-size: 20px;
-    font-style:  italic;
-    resize: none;
-    border-style: 15px;
-    margin-top: 10px;
-    border-radius: 15px;
-}
-.camposradio{
-    font-size: 25px;
-    font-style: italic;
-    border-radius: 15px;
-}
-.boton{
-    font-size: 20px;
-    font-weight: bold;
-    width: 150px;
-    height: 50px;
-    background-color: #000000;
-    color:#ffffff;
-    border-radius: 15px;
 }

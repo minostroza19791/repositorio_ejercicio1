@@ -29,23 +29,25 @@
             
             <fieldset class="camposradio">
                 <legend>Sexo:</legend>
-                <input type="radio" id="op1" name="opsex" value="1" checked>
+                <input type="radio" id="op1" name="opsex" value="1" checked/> <!--id es identificar control para diseño, name nombre para programacion-->
                 <label for="op1">Masculino</label>
 
-                <input type="radio" id="op2" name="opsex" value="2">
+                <input type="radio" id="op2" name="opsex" value="2"/>
                 <label for="op2">Femenino</label>
                 
-                <input type="radio" id="op3" name="opsex" value="3">
+                <input type="radio" id="op3" name="opsex" value="3"/>
                 <label for="op3">X</label>
             </fieldset>
-            <select class="controles" name="cboip" requerid>
-                <option value="">"Seleccione el tipo de mensaje "</option>
+            <select class="controles" name="cboip" required>
+                <option value="">"Seleccione el tipo de mensaje"</option>
                 <option value="1">"Reclamos"</option>
                 <option value="2">"Sugerencia"</option>
                 <option value="3">"Otro"</option>
-            </select><br/>
-
-            <textarea class="controles" name="" id="txtcom" placeholder="digite su comementario" maxlength="200" required></textarea><br>
+            </select>
+            <br/>
+           
+            <textarea class="controles" name="comen" id="txtcom" placeholder="Digite su comentario" maxlength="240" required></textarea><br>
+            
             <center>
             <input class=boton type="submit" value="enviar">
             <input class=boton type="reset" value="restablecer">
